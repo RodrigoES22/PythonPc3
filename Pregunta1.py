@@ -17,4 +17,4 @@ def lenUltimaPalabra(frase):
    return cantidad
 #Programa
 palabra = input("Introduce un string: ")
-print(lenUltimaPalabra(palabra))
+print(f"La longitud de la última palabra es: {lenUltimaPalabra(palabra)}")

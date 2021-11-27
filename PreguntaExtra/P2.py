@@ -1,4 +1,10 @@
+##Pregunta 2
+ #Plano cartesiano
+ #Puntos y coordenadas
+ #Vectores en el plano
+#Librería
 import math
+#Clases y Funciones
 class Punto:
     def __init__(self, coordenada_X, coordenada_Y):
         self.coordenada_X = coordenada_X
@@ -38,7 +44,7 @@ class Rectangulo:
         print("La altura del rectángulo es {}".format( self.vAltura ) )
     def area(self):
         print("El área del rectángulo es {}".format( self.vArea ) )
-
+#Mi programa
 A=Punto(2,5)
 A.cuadrante()
 B = Punto(5,5)
